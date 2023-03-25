@@ -1,0 +1,22 @@
+.divContenedor {
+    width: 70%;
+    margin: 3rem auto ;
+}
+
+.h1 {
+    /* font-size: large; */
+}
+
+.p {
+    font-size: large;
+}
+
+.img {
+    width: 25rem;
+    height: auto;
+    border-radius: .8rem;
+}
+
+.imgLinked{
+    width: 5rem;
+}

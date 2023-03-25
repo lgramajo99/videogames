@@ -1,0 +1,26 @@
+.pagination {
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagination .a {
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bolder;    
+}
+
+
+.pagination .a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+.pagination .a:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.pagination .a:last-child {
+    border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,45 @@
+@media only screen and (min-width: 600px) {
+    .inputSearch {
+        padding: 6px 15px;
+        font-size: 16px;
+        margin: 3px auto;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        background-color: #444444;
+        color: #ffffff;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btnSearch {
+        border-radius: 0 20px 20px 0;
+        padding: 6px 15px;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .inputSearch {
+        padding: 4px 5px;
+        font-size: 12px;
+        margin: 3px auto;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        background-color: #444444;
+        color: #ffffff;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btnSearch {
+        border-radius: 0 20px 20px 0;
+
+    }
+}
+
+
+
+.btnSearch:hover {
+    background-color: #bfbfbf;
+}

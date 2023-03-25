@@ -1,0 +1,24 @@
+.divError {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.msjError {
+    display: block;
+}
+
+.btnLink {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.btnLink:hover {
+    color: #bfbfbf;
+}

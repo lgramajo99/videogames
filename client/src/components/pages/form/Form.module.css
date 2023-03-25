@@ -1,0 +1,66 @@
+.formNewGame {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.inputs {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.divGenero {
+    width: 100%;
+}
+
+.btn {
+    width: 20%;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* - ----------------------------- - */
+
+.btnAdd {
+    background-color: #3AAFA9;
+    transition: transform 0.5s ease;
+
+}
+
+.btnAdd:hover {
+    background-color: #005F49;
+
+}
+
+/* - ----------------------------- - */
+
+.btnDelete {
+    background-color: #D83A3A;
+    transition: transform 0.5s ease;
+}
+
+.btnDelete:hover {
+    background-color: #A60000;
+}
+
+/* - ----------------------------- - */
+
+.btnEnviar {
+    background-color: #4DA8DA;
+    transition: transform 0.5s ease;
+}
+
+.btnEnviar:hover {
+    background-color: #1E555C;
+}
+
+.divBtnGenero {
+    width: 100%;
+    margin: 0 0 10px 0;
+
+}

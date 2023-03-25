@@ -1,0 +1,54 @@
+.divCard {
+    background-color: #2e2e2e;
+    text-align: start;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    font-size: medium;
+}
+
+.divCard:hover {
+    transform: scale(1.05)
+}
+
+.imgGame {
+    max-width: 100%;
+    height: auto;
+}
+
+.nombreGame {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.nombreGame:hover {
+    color: #bfbfbf;
+}
+
+
+.divInfo {
+    padding: 0 2rem;
+}
+
+.divGenero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .pGenero {} */
+
+.linkGenero {
+    /* display: block; */
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    text-decoration: none;
+    margin: auto 2px;
+    }
+
+.linkGenero:hover {
+    color: #bfbfbf;
+}

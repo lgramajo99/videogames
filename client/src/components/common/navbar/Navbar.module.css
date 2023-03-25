@@ -1,0 +1,85 @@
+ @media only screen and (min-width: 600px) {
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 20px 20px;
+     }
+
+     .logo {
+         color: white;
+         font-weight: bold;
+         font-size: 15px;
+         text-transform: uppercase;
+         text-decoration: none;
+         transition: 0.5s ease;
+     }
+
+     .logo:hover {
+         font-size: 16px;
+     }
+
+     .divRight {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+
+     .btnLink {
+         color: white;
+         font-weight: bold;
+         font-size: 14px;
+         text-transform: uppercase;
+         text-decoration: none;
+         transition: all 0.5s ease;
+         margin: 0 10px;
+     }
+
+     .btnLink:hover {
+         color: #bfbfbf;
+     }
+ }
+
+
+
+ @media (max-width: 600px) {
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 10px;
+     }
+
+     .logo {
+         color: white;
+         font-weight: bold;
+         font-size: 12px;
+         text-transform: uppercase;
+         text-decoration: none;
+         transition: 0.5s ease;
+     }
+
+     .logo:hover {
+         font-size: 14px;
+     }
+
+
+     .divRight {
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+
+     .btnLink {
+         color: white;
+         font-weight: bold;
+         font-size: 12px;
+         text-transform: uppercase;
+         text-decoration: none;
+         transition: all 0.5s ease;
+         margin: 0 5px;
+     }
+
+
+
+ }

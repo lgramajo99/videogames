@@ -1,0 +1,26 @@
+.divFooter {
+    background-color: #2e2e2e;
+
+}
+
+.divPadre {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+}
+
+
+
+.hr {
+    border-color: #7f7f7f;
+}
+
+.links {
+    color: #bfbfbf;
+    margin: 0 4px;
+    transition: 0.3s;
+}
+
+.links:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,54 @@
+@media only screen and (min-width: 600px) {
+    .pageDetalle {
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 2%;
+    }
+
+    .divDetalle {
+        width: 70%;
+        margin: auto;
+        background-color: #2e2e2e;
+        padding: 20px;
+        border-radius: .8rem;
+    }
+
+    .p {
+        font-size: 1.1rem;
+        text-align: start;
+    }
+
+    .identificador {
+        margin-bottom: 5px;
+    }
+
+    .generos {
+        text-align: end;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        border-radius: .8rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .divDetalle {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        border-radius: .8rem;
+    }
+
+    .pageDetalle {
+        background-image: none !important;
+        background-color: #1b1b1b !important;
+        padding: 2%;
+    }
+}

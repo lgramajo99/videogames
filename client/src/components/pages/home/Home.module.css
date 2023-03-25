@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .divHome > div:first-child {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .divHome {
+        display: grid;
+        grid-template-columns: 2fr 10fr;
+    }
+}

@@ -1,0 +1,19 @@
+.ulGenero {
+    list-style: none;
+    text-align: start;
+}
+
+.liGenero {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.linkGenero {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.linkGenero:hover {
+    color: #bfbfbf;
+}

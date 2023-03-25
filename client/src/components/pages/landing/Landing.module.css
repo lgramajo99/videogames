@@ -1,0 +1,60 @@
+.bgLanding {
+    background-image: url('https://i.imgur.com/hzIYNFz.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.divLanding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(46, 46, 46, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.titulo {
+    font-size: larger;
+}
+
+.parrafo {
+    font-size: larger;
+}
+
+.btn {
+    display: block;
+    margin: 3px auto;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #646464;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f53737;
+    color: #1b1b1b;
+}
+
+.inputform {
+    display: block;
+    width: 70%;
+    margin: 3px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #444444;
+    color: #ffffff;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1b1b1b !important;
+  color: #FFFFFF !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* 
+***** PALETA DE COLORES EN NEGRO *****
+#000000 (negro sólido)
+#1b1b1b Usado en en body
+#2e2e2e Usado en el footer
+#4f4f4f
+#7f7f7f
+#bfbfbf Usado en Links
+#e6e6e6
+#f2f2f2 (gris muy claro)
+*/

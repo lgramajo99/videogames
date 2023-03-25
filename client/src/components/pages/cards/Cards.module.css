@@ -1,0 +1,43 @@
+/* Aquí van los estilos para pantallas pequeñas */
+
+@media only screen and (max-width: 600px) {
+    .divCards {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        max-width: 100% !important;
+        margin: 0 auto;
+        align-items: flex-start;
+    }
+
+    .cardsContainer {
+        padding: 20px;
+
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* Aquí van los estilos para pantallas grandes */
+    .divCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    .pagination {
+        background-color: aqua !important;
+    }
+
+    .cardsContainer {
+        padding: 20px;
+
+    }
+
+    .botoneras {
+        display: flex;
+        margin: 0 0 10px 0;
+
+    }
+}
