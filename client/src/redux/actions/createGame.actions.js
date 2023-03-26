@@ -9,7 +9,7 @@ export const addVideogame = (videogameData) => {
   return (dispatch) => {
     dispatch(addVideogameRequest());
 
-    axios.post('localhost:3001/videogames', videogameData)
+    axios.post('http://localhost:3001/videogames', videogameData)
       .then(response => {
         dispatch(addVideogameSuccess(response.data));
       })

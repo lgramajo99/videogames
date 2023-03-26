@@ -34,11 +34,11 @@ function Form() {
             imagen: e.target.imagen.value,
             descripcion: e.target.descripcion.value,
             plataformas: e.target.plataformas.value,
-            fecha: e.target.fecha.value,
+            fecha_lanzamiento: e.target.fecha_lanzamiento.value,
             rating: e.target.rating.value,
             generos: generos
         };
-        dispatch(addVideogame(newVideogame)); 
+        dispatch(addVideogame(newVideogame));
         e.target.reset();
     }
 
@@ -51,11 +51,11 @@ function Form() {
                 <input className={style.inputs} type="url" name='imagen' placeholder="url(imagen)" />
                 <textarea className={style.inputs} name='descripcion' placeholder="descripcion del juego" id="" cols="30" rows="10"></textarea>
                 <input className={style.inputs} type="text" name='plataformas' placeholder="Plataformas" />
-                <input className={style.inputs} type="date" name='fecha' />
+                <input className={style.inputs} type="date" name='fecha_lanzamiento' placeholder="Fecha de lanzamiento (AAAA-MM-DD)" />
                 <input className={style.inputs} type="number" name='rating' placeholder="Rating" />
 
                 {generos.map((genero, index) => (
-                    <input className={style.inputs} type="text" name='generos' placeholder="Genero" value={genero} onChange={(e) => handleInputChange(index, e)} />
+                    <input className={style.inputs} type="text" name='generos' placeholder="Genero" key={index} value={genero} onChange={(e) => handleInputChange(index, e)} />
                 ))}
 
                 <div className={style.divBtnGenero}>

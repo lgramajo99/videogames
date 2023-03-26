@@ -14,7 +14,6 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     descripcion: {
-      //la opcion descripcion no se encuentra en la API
       type: DataTypes.TEXT,
       allowNull: true,
 

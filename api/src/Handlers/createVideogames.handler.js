@@ -4,10 +4,14 @@ const createVideogame = async ({ nombre, descripcion, plataformas, imagen, ratin
 
     try {
         // Buscar o crear el género
-        const genreInstances = await Promise.all(genre.map(g => Genre.findOrCreate({ where: { nombre: g } })));
-
-        // Extraer las instancias de género creadas o encontradas
-        const genres = genreInstances.map(g => g[0]);
+        let genres = [];
+        if (genre) {
+            const genreInstances = await Promise.all(genre.map(async g => {
+                const [instance] = await Genre.findOrCreate({ where: { nombre: g } });
+                return instance;
+            }));
+            genres = genreInstances;
+        }
 
         // Crear el videojuego
         const videogame = await Videogame.create({
@@ -34,7 +38,7 @@ const createVideogame = async ({ nombre, descripcion, plataformas, imagen, ratin
             fecha_lanzamiento: videogame.fecha_lanzamiento,
             rating: videogame.rating,
             genres: genres.map(g => g.nombre)
-        };;
+        };
 
     } catch (error) {
         console.log(error);
@@ -43,4 +47,3 @@ const createVideogame = async ({ nombre, descripcion, plataformas, imagen, ratin
 };
 
 module.exports = { createVideogame };
-
